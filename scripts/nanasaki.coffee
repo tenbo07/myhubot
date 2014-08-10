@@ -26,7 +26,7 @@ nanasaki_words_suki = [
 ]
 
 module.exports = (robot) ->
-  robot.hear /七咲 (.*)/i, (msg) ->
+  robot.hear /七咲(.*)/i, (msg) ->
     normal = ->
       suki_count = 0
       if normal_count >= 0 && normal_count < 5
