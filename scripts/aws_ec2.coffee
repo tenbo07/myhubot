@@ -12,7 +12,8 @@
 #   HUBOT_AWS_EC2_REGIONS
 #
 # Commands:
-#   hubot ec2 start instace-Id - Returns the status of EC2 instances
+#   hubot ec2 start <instace-Id> - Returns the status of EC2 instances
+#   hubot ec2 stop <instace-Id> - Returns the status of EC2 instances
 #
 # Author:
 #   Iristyle
