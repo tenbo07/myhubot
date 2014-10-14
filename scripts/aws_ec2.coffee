@@ -1,5 +1,5 @@
 # Description:
-#   Queries for the status of AWS services
+#   Start or Stop AWS EC2 Instance
 #
 # Dependencies:
 #   "aws2js": "0.6.12"
@@ -12,11 +12,8 @@
 #   HUBOT_AWS_EC2_REGIONS
 #
 # Commands:
-#   hubot ec2 start <instace-Id> - Returns the status of EC2 instances
-#   hubot ec2 stop <instace-Id> - Returns the status of EC2 instances
-#
-# Author:
-#   Iristyle
+#   hubot ec2 start <instace-Id> - Start EC2 instances
+#   hubot ec2 stop <instace-Id> - Stop EC2 instances
 
 key = process.env.HUBOT_AWS_ACCESS_KEY_ID
 secret = process.env.HUBOT_AWS_SECRET_ACCESS_KEY
